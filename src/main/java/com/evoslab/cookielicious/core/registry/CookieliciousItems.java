@@ -31,17 +31,46 @@ public class CookieliciousItems {
     
     public static class Properties {
     	
-    	public static final Item.Properties VANILLA = getCookieProps(Effects.VANILLA_SCENT);
-    	public static final Item.Properties CHOCOLATE = getCookieProps(Effects.SUGAR_RUSH);
+    	//public static final Item.Properties VANILLA = getCookieProps(Effects.VANILLA_SCENT);
+    	//public static final Item.Properties CHOCOLATE = getCookieProps(Effects.SUGAR_RUSH);
     	public static final Item.Properties STRAWBERRY = new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
     			.hunger(2)
     			.saturation(1F)
     			.fastToEat()
     			.build());
-    	public static final Item.Properties BANANA = getCookieProps(Effects.AGILITY);
+    	/*public static final Item.Properties BANANA = getCookieProps(Effects.AGILITY);
     	public static final Item.Properties MINT = getCookieProps(Effects.BERSERKING);
-    	public static final Item.Properties ADZUKI = getCookieProps(Effects.HARMONY);
-    	
+    	public static final Item.Properties ADZUKI = getCookieProps(Effects.HARMONY);*/
+    	public static final Item.Properties VANILLA = new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
+				.hunger(2)
+				.saturation(1F)
+				.effect(() -> new EffectInstance(Effects.VANILLA_SCENT, 120, 0), 1F)
+				.fastToEat()
+				.build());
+		public static final Item.Properties CHOCOLATE = new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
+				.hunger(2)
+				.saturation(1F)
+				.effect(() -> new EffectInstance(Effects.SUGAR_RUSH, 120, 0), 1F)
+				.fastToEat()
+				.build());
+		public static final Item.Properties BANANA = new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
+				.hunger(2)
+				.saturation(1F)
+				.effect(() -> new EffectInstance(Effects.AGILITY, 120, 0), 1F)
+				.fastToEat()
+				.build());
+		public static final Item.Properties MINT = new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
+				.hunger(2)
+				.saturation(1F)
+				.effect(() -> new EffectInstance(Effects.AGILITY, 120, 0), 1F)
+				.fastToEat()
+				.build());
+		public static final Item.Properties ADZUKI = new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
+				.hunger(2)
+				.saturation(1F)
+				.effect(() -> new EffectInstance(Effects.HARMONY, 120, 0), 1F)
+				.fastToEat()
+				.build());
     	public static Item.Properties getCookieProps(Effect effect) {
     		return getCookieProps(effect, 2, 1F);
     	}
