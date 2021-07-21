@@ -31,16 +31,11 @@ public class CookieliciousItems {
     
     public static class Properties {
     	
-    	//public static final Item.Properties VANILLA = getCookieProps(Effects.VANILLA_SCENT);
-    	//public static final Item.Properties CHOCOLATE = getCookieProps(Effects.SUGAR_RUSH);
     	public static final Item.Properties STRAWBERRY = new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
     			.hunger(2)
     			.saturation(1F)
     			.fastToEat()
     			.build());
-    	/*public static final Item.Properties BANANA = getCookieProps(Effects.AGILITY);
-    	public static final Item.Properties MINT = getCookieProps(Effects.BERSERKING);
-    	public static final Item.Properties ADZUKI = getCookieProps(Effects.HARMONY);*/
     	public static final Item.Properties VANILLA = new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
 				.hunger(2)
 				.saturation(1F)
@@ -97,6 +92,7 @@ public class CookieliciousItems {
     	public static Effect getEffect(String id) {
     		return ForgeRegistries.POTIONS.getValue(new ResourceLocation(Mods.NEAPOLITAN, id));
     	}
+    	
     }
     
 }
