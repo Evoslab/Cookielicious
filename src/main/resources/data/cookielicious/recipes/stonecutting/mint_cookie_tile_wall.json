@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cookielicious:mint_cookie_tiles"
+  },
+  "result": "cookielicious:mint_cookie_tile_wall",
+  "count": 1,
+	"conditions": [
+    {
+      "type": "differentiate:condition",
+      "condition": "mint_cookie_tiles"
+    }
+  ]
+}

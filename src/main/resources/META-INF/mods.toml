@@ -48,6 +48,6 @@ configuredBackground= "cookielicious:textures/blocks/cookie_tiles.png" #configur
 [[dependencies.cookielicious]]
     modId="differentiate"
     mandatory=true
-    versionRange="[0.5.0,)"
+    versionRange="[0.5.3,)"
     ordering="AFTER"
     side="BOTH"
