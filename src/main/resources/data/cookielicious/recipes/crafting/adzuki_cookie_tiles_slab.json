@@ -10,7 +10,11 @@
         }
     },
     "result": {
+<<<<<<< HEAD:src/main/resources/data/cookielicious/recipes/crafting/adzuki_cookie_tiles_slab.json
         "item": "cookielicious:adzuki_cookie_tiles_slab",
+=======
+        "item": "cookielicious:sandwich_cookie_tile_slab",
+>>>>>>> parent of 11aed0a (data should work now):src/main/resources/data/cookielicious/recipes/crafting/sandwich_cookie_tile_slab.json
         "count": 6
     },
 	"conditions": [

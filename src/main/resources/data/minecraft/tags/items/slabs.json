@@ -1,6 +1,7 @@
 {
 	"replace": "false",
 	"values": [
+<<<<<<< HEAD
 		"cookielicious:chocolate_cookie_tiles_slab",
 		"cookielicious:vanilla_cookie_tiles_slab",
 		"cookielicious:strawberry_cookie_tiles_slab",
@@ -10,5 +11,12 @@
 		"cookielicious:mint_cookie_tiles_slab",
 		"cookielicious:banana_cookie_tiles_slab",
 		"cookielicious:adzuki_cookie_tiles_slab"
+=======
+		"cookielicious:chocolate_cookie_tile_slab",
+		"cookielicious:vanilla_cookie_tile_slab",
+		"cookielicious:strawberry_cookie_tile_slab",
+		"cookielicious:honey_cookie_tile_slab",
+		"cookielicious:sweet_berry_cookie_tile_slab"
+>>>>>>> parent of 11aed0a (data should work now)
 	]
 }
