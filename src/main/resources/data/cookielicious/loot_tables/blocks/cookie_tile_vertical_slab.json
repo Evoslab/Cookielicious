@@ -12,11 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-<<<<<<< HEAD:src/main/resources/data/cookielicious/loot_tables/blocks/cookie_tile_vertical_slab.json
                   "block": "cookielicious:cookie_tile_vertical_slab",
-=======
-                  "block": "cookielicious:chocolate_cookie_tile_slab",
->>>>>>> parent of 11aed0a (data should work now):src/main/resources/data/cookielicious/loot_tables/blocks/chocolate_cookie_tile_slab.json
                   "properties": {
                     "type": "double"
                   }
@@ -28,12 +24,8 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-<<<<<<< HEAD:src/main/resources/data/cookielicious/loot_tables/blocks/cookie_tile_vertical_slab.json
           "name": "cookielicious:cookie_tile_vertical_slab"
-=======
-          "name": "cookielicious:chocolate_cookie_tile_slab"
->>>>>>> parent of 11aed0a (data should work now):src/main/resources/data/cookielicious/loot_tables/blocks/chocolate_cookie_tile_slab.json
-        }
+       }
       ]
     }
   ]

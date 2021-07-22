@@ -6,11 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-<<<<<<< HEAD:src/main/resources/data/cookielicious/loot_tables/blocks/strawberry_cookie_tile_wall.json
-          "name": "cookielicious:strawberry_cookie_tile_wall"
-=======
           "name": "cookielicious:chocolate_cookie_tile_stairs"
->>>>>>> parent of 11aed0a (data should work now):src/main/resources/data/cookielicious/loot_tables/blocks/chocolate_cookie_tile_stairs.json
         }
       ],
       "conditions": [
