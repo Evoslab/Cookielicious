@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "cookielicious:adzuki_cookie_tiles"
+        }
+    },
+    "result": {
+<<<<<<< HEAD:src/main/resources/data/cookielicious/recipes/crafting/adzuki_cookie_tile_stairs.json
+        "item": "cookielicious:adzuki_cookie_tile_stairs",
+=======
+        "item": "cookielicious:sandwich_cookie_tile_stairs",
+>>>>>>> parent of 11aed0a (data should work now):src/main/resources/data/cookielicious/recipes/crafting/sandwich_cookie_tile_stairs.json
+        "count": 4
+    },
+	"conditions": [
+    {
+      "type": "differentiate:condition",
+      "condition": "adzuki_cookie_tiles"
+    }
+  ]
+}

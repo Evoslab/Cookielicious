@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+<<<<<<< HEAD:src/main/resources/data/cookielicious/recipes/crafting/adzuki_cookie_tile_vertical_slab_revert.json
+      "item": "cookielicious:adzuki_cookie_tile_vertical_slab"
+    }
+  ],
+  "result": {
+    "item": "cookielicious:adzuki_cookie_tile_slab",
+=======
+      "item": "cookielicious:sandwich_cookie_tile_vertical_slab"
+    }
+  ],
+  "result": {
+    "item": "cookielicious:sandwich_cookie_tile_slab",
+>>>>>>> parent of 11aed0a (data should work now):src/main/resources/data/cookielicious/recipes/crafting/sandwich_cookie_tile_vertical_slab_revert.json
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_slabs"
+    },
+	{
+      "type": "differentiate:condition",
+      "condition": "adzuki_cookie_tiles"
+    }
+  ]
+}

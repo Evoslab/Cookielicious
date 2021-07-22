@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cookielicious:adzuki_cookie_tiles"
+  },
+<<<<<<< HEAD:src/main/resources/data/cookielicious/recipes/stonecutting/adzuki_cookie_tile_vertical_slab.json
+  "result": "cookielicious:adzuki_cookie_tile_vertical_slab",
+=======
+  "result": "cookielicious:sandwich_cookie_tile_vertical_slab",
+>>>>>>> parent of 11aed0a (data should work now):src/main/resources/data/cookielicious/recipes/stonecutting/sandwich_cookie_tile_vertical_slab.json
+  "count": 2,
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_slabs"
+    },
+	{
+	  "type": "differentiate:condition",
+	  "condition": "adzuki_cookie_tiles"
+	}
+  ]
+}

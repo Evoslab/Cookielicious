@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cookielicious:adzuki_cookie_tiles"
+  },
+  "result": "cookielicious:adzuki_cookie_tile_stairs",
+  "count": 1,
+	"conditions": [
+    {
+      "type": "differentiate:condition",
+      "condition": "adzuki_cookie_tiles"
+    }
+  ]
+}
