@@ -1,14 +1,14 @@
 {
 	"replace": "false",
 	"values": [
-		"cookielicious:chocolate_cookie_tiles_wall",
-		"cookielicious:vanilla_cookie_tiles_wall",
-		"cookielicious:strawberry_cookie_tiles_wall",
-		"cookielicious:honey_cookie_tiles_wall",
-		"cookielicious:sweet_berry_cookie_tiles_wall",
-		"cookielicious:cookie_tiles_wall",
-		"cookielicious:mint_cookie_tiles_wall",
-		"cookielicious:banana_cookie_tiles_wall",
-		"cookielicious:adzuki_cookie_tiles_wall"
+		"cookielicious:chocolate_cookie_tile_wall",
+		"cookielicious:vanilla_cookie_tile_wall",
+		"cookielicious:strawberry_cookie_tile_wall",
+		"cookielicious:honey_cookie_tile_wall",
+		"cookielicious:sweet_berry_cookie_tile_wall",
+		"cookielicious:cookie_tile_wall",
+		"cookielicious:mint_cookie_tile_wall",
+		"cookielicious:banana_cookie_tile_wall",
+		"cookielicious:adzuki_cookie_tile_wall"
 	]
 }

@@ -1,5 +1,5 @@
 {
-    "parent": "cookielicious:block/vertical_slab",
+    "parent": "differentiate:block/vertical_slab",
     "textures": {
         "side": "cookielicious:blocks/chocolate_cookie_tiles",
         "top": "cookielicious:blocks/chocolate_cookie_tiles",

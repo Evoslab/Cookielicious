@@ -1,22 +1,14 @@
 {
 	"replace": "false",
 	"values": [
-<<<<<<< HEAD
-		"cookielicious:chocolate_cookie_tiles_stairs",
-		"cookielicious:vanilla_cookie_tiles_stairs",
-		"cookielicious:strawberry_cookie_tiles_stairs",
-		"cookielicious:honey_cookie_tiles_stairs",
-		"cookielicious:sweet_berry_cookie_tiles_stairs",
-		"cookielicious:cookie_tiles_stairs",
-		"cookielicious:mint_cookie_tiles_stairs",
-		"cookielicious:banana_cookie_tiles_stairs",
-		"cookielicious:adzuki_cookie_tiles_stairs"
-=======
 		"cookielicious:chocolate_cookie_tile_stairs",
 		"cookielicious:vanilla_cookie_tile_stairs",
 		"cookielicious:strawberry_cookie_tile_stairs",
 		"cookielicious:honey_cookie_tile_stairs",
-		"cookielicious:sweet_berry_cookie_tile_stairs"
->>>>>>> parent of 11aed0a (data should work now)
+		"cookielicious:sweet_berry_cookie_tile_stairs",
+		"cookielicious:cookie_tile_stairs",
+		"cookielicious:mint_cookie_tile_stairs",
+		"cookielicious:banana_cookie_tile_stairs",
+		"cookielicious:adzuki_cookie_tile_stairs"
 	]
 }
