@@ -1,19 +1,31 @@
 {
   "variants": {
     "facing=east,half=bottom,shape=inner_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 270,
       "uvlock": true
     },
     "facing=east,half=bottom,shape=inner_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner"
     },
     "facing=east,half=bottom,shape=outer_left": {
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner"
+    },
+    "facing=east,half=bottom,shape=outer_left": {
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 270,
       "uvlock": true
     },
     "facing=east,half=bottom,shape=outer_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer"
     },
     "facing=east,half=bottom,shape=straight": {
@@ -21,186 +33,329 @@
     },
     "facing=east,half=top,shape=inner_left": {
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer"
+    },
+    "facing=east,half=bottom,shape=straight": {
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs"
+    },
+    "facing=east,half=top,shape=inner_left": {
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "uvlock": true
     },
     "facing=east,half=top,shape=inner_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 90,
       "uvlock": true
     },
     "facing=east,half=top,shape=outer_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "uvlock": true
     },
     "facing=east,half=top,shape=outer_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 90,
       "uvlock": true
     },
     "facing=east,half=top,shape=straight": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "uvlock": true
     },
     "facing=north,half=bottom,shape=inner_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 180,
       "uvlock": true
     },
     "facing=north,half=bottom,shape=inner_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 270,
       "uvlock": true
     },
     "facing=north,half=bottom,shape=outer_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 180,
       "uvlock": true
     },
     "facing=north,half=bottom,shape=outer_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 270,
       "uvlock": true
     },
     "facing=north,half=bottom,shape=straight": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 270,
       "uvlock": true
     },
     "facing=north,half=top,shape=inner_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 270,
       "uvlock": true
     },
     "facing=north,half=top,shape=inner_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "uvlock": true
     },
     "facing=north,half=top,shape=outer_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 270,
       "uvlock": true
     },
     "facing=north,half=top,shape=outer_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "uvlock": true
     },
     "facing=north,half=top,shape=straight": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 270,
       "uvlock": true
     },
     "facing=south,half=bottom,shape=inner_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner"
     },
     "facing=south,half=bottom,shape=inner_right": {
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner"
+    },
+    "facing=south,half=bottom,shape=inner_right": {
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 90,
       "uvlock": true
     },
     "facing=south,half=bottom,shape=outer_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer"
     },
     "facing=south,half=bottom,shape=outer_right": {
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer"
+    },
+    "facing=south,half=bottom,shape=outer_right": {
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 90,
       "uvlock": true
     },
     "facing=south,half=bottom,shape=straight": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 90,
       "uvlock": true
     },
     "facing=south,half=top,shape=inner_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 90,
       "uvlock": true
     },
     "facing=south,half=top,shape=inner_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 180,
       "uvlock": true
     },
     "facing=south,half=top,shape=outer_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 90,
       "uvlock": true
     },
     "facing=south,half=top,shape=outer_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 180,
       "uvlock": true
     },
     "facing=south,half=top,shape=straight": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 90,
       "uvlock": true
     },
     "facing=west,half=bottom,shape=inner_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 90,
       "uvlock": true
     },
     "facing=west,half=bottom,shape=inner_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 180,
       "uvlock": true
     },
     "facing=west,half=bottom,shape=outer_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 90,
       "uvlock": true
     },
     "facing=west,half=bottom,shape=outer_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 180,
       "uvlock": true
     },
     "facing=west,half=bottom,shape=straight": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "y": 180,
       "uvlock": true
     },
     "facing=west,half=top,shape=inner_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 180,
       "uvlock": true
     },
     "facing=west,half=top,shape=inner_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_inner",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_inner",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 270,
       "uvlock": true
     },
     "facing=west,half=top,shape=outer_left": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 180,
       "uvlock": true
     },
     "facing=west,half=top,shape=outer_right": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs_outer",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs_outer",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 270,
       "uvlock": true
     },
     "facing=west,half=top,shape=straight": {
+<<<<<<< HEAD:src/main/resources/assets/cookielicious/blockstates/adzuki_cookie_tiles_stairs.json
       "model": "cookielicious:block/adzuki_cookie_tiles_stairs",
+=======
+      "model": "cookielicious:block/sandwich_cookie_tile_stairs",
+>>>>>>> parent of b34ad2a (blockstates and models fixed):src/main/resources/assets/cookielicious/blockstates/sandwich_cookie_tiles_stairs.json
       "x": 180,
       "y": 180,
       "uvlock": true
