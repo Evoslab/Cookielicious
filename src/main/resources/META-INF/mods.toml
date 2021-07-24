@@ -4,7 +4,7 @@ license="All rights reserved"
 issueTrackerURL="http://github.com/Evoslab/Cookielicious/issues"
 [[mods]]
 modId="cookielicious"
-version="1.4.0"
+version="1.4.1"
 displayName="Cookielicious"
 logoFile="cookielicious.png"
 credits="Evo, Stardust, AvocadoSpud, Nary, EltrutLikes"
