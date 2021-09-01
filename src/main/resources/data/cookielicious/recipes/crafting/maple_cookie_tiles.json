@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "abnormals_delight:maple_cookie"
+        }
+    },
+    "result": {
+        "item": "cookielicious:maple_cookie_tiles",
+        "count": 4
+    },
+	"conditions": [
+    {
+      "type": "differentiate:condition",
+      "condition": "chocolate_cookie_tiles"
+    }
+  ]
+}

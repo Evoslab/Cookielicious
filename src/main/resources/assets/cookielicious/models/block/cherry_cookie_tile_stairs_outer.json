@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "cookielicious:blocks/cherry_cookie_tiles",
+    "top": "cookielicious:blocks/cherry_cookie_tiles",
+    "side": "cookielicious:blocks/cherry_cookie_tiles"
+  }
+}
