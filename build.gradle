@@ -80,6 +80,7 @@ dependencies {
     implementation fg.deobf("curse.maven:autumnity-365045:${autumnity_id}")
     implementation fg.deobf("curse.maven:upgrade-aquatic-326895:${upgrade_aquatic_id}")
     implementation fg.deobf("curse.maven:environmental-388992:${environmental_id}")
+    implementation fg.deobf("curse.maven:bayou-blues-452344:${bayou_blues_id}")
 
 	implementation fg.deobf("curse.maven:farmersdelight-398521:${fd_id}")
 	implementation fg.deobf("curse.maven:autoreglib-250363:${arl_id}")

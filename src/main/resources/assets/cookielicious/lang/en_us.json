@@ -76,5 +76,11 @@
   "block.cookielicious.maple_cookie_tile_slab": "Maple Cookie Tile Slab",
   "block.cookielicious.maple_cookie_tile_stairs": "Maple Cookie Tile Stairs",
   "block.cookielicious.maple_cookie_tile_wall": "Maple Cookie Tile Wall",
-  "block.cookielicious.maple_cookie_tile_vertical_slab": "Maple Cookie Tile Vertical Slab"
+  "block.cookielicious.maple_cookie_tile_vertical_slab": "Maple Cookie Tile Vertical Slab",
+
+  "block.cookielicious.gooseberry_jam_cookie_tiles": "Gooseberry Jam Tiles",
+  "block.cookielicious.gooseberry_jam_cookie_tile_slab": "Gooseberry Jam Tile Slab",
+  "block.cookielicious.gooseberry_jam_cookie_tile_stairs": "Gooseberry Jam Tile Stairs",
+  "block.cookielicious.gooseberry_jam_cookie_tile_wall": "Gooseberry Jam Tile Wall",
+  "block.cookielicious.gooseberry_jam_cookie_tile_vertical_slab": "Gooseberry Jam Tile Vertical Slab"
 }
