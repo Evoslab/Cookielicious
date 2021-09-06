@@ -58,5 +58,29 @@
   "block.cookielicious.adzuki_cookie_tile_slab": "Losa de azulejo de galletas de azuki",
   "block.cookielicious.adzuki_cookie_tile_stairs": "Escaleras de azulejo de galletas de azuki",
   "block.cookielicious.adzuki_cookie_tile_wall": "Pared de azulejo de galletas de azuki",
-  "block.cookielicious.adzuki_cookie_tile_vertical_slab": "Losa vertical de azulejo de galletas de azuki"
+  "block.cookielicious.adzuki_cookie_tile_vertical_slab": "Losa vertical de azulejo de galletas de azuki",
+
+  "block.cookielicious.cherry_cookie_tiles": "Azulejo de galletas de cereza",
+  "block.cookielicious.cherry_cookie_tile_slab": "Losa de azulejo de galletas de cereza",
+  "block.cookielicious.cherry_cookie_tile_stairs": "Escaleras de azulejo de galletas de cereza",
+  "block.cookielicious.cherry_cookie_tile_wall": "Pared de azulejo de galletas de cereza",
+  "block.cookielicious.cherry_cookie_tile_vertical_slab": "Losa vertical de azulejo de galletas de cereza",
+
+  "block.cookielicious.mulberry_cookie_tiles": "Azulejo de galletas de moras",
+  "block.cookielicious.mulberry_cookie_tile_slab": "Losa de azulejo de galletas de moras",
+  "block.cookielicious.mulberry_cookie_tile_stairs": "Escaleras de azulejo de galletas de moras",
+  "block.cookielicious.mulberry_cookie_tile_wall": "Pared de azulejo de galletas de moras",
+  "block.cookielicious.mulberry_cookie_tile_vertical_slab": "Losa vertical de azulejo de galletas de moras",
+
+  "block.cookielicious.maple_cookie_tiles": "Azulejo de galletas de arce",
+  "block.cookielicious.maple_cookie_tile_slab": "Losa de azulejo de galletas de arce",
+  "block.cookielicious.maple_cookie_tile_stairs": "Escaleras de azulejo de galletas de arce",
+  "block.cookielicious.maple_cookie_tile_wall": "Pared de azulejo de galletas de arce",
+  "block.cookielicious.maple_cookie_tile_vertical_slab": "Losa vertical de azulejo de galletas de arce",
+
+  "block.cookielicious.gooseberry_jam_cookie_tiles": "Azulejo de mermelada de grosellas",
+  "block.cookielicious.gooseberry_jam_cookie_tile_slab": "Losa de azulejo de mermelada de grosellas",
+  "block.cookielicious.gooseberry_jam_cookie_tile_stairs": "Escaleras de azulejo de mermelada de grosellas",
+  "block.cookielicious.gooseberry_jam_cookie_tile_wall": "Pared de azulejo de mermelada de grosellas",
+  "block.cookielicious.gooseberry_jam_cookie_tile_vertical_slab": "Losa vertical de azulejo de mermelada de grosellas"
 }
