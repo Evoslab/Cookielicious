@@ -1,0 +1,86 @@
+{
+  "item.cookielicious.vanilla_cookie": "Biscotto alla vaniglia",
+  "item.cookielicious.chocolate_cookie": "Biscotto al cioccolato",
+  "item.cookielicious.strawberry_cookie": "Biscotto alla fragola",
+  "item.cookielicious.banana_cookie": "Biscotto alla banana",
+  "item.cookielicious.mint_cookie": "Biscotto alla menta",
+  "item.cookielicious.adzuki_cookie": "Biscotto all'azuki",
+  
+  "block.cookielicious.cookie_tiles": "Piastrelle di biscotto",
+  "block.cookielicious.cookie_tile_slab": "Lastra di piastrelle di biscotto",
+  "block.cookielicious.cookie_tile_stairs": "Scalini di piastrelle di biscotto",
+  "block.cookielicious.cookie_tile_wall": "Muretto di piastrelle di biscotto",
+  "block.cookielicious.cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto",
+  
+  "block.cookielicious.strawberry_cookie_tiles": "Piastrelle di biscotto alla fragola",
+  "block.cookielicious.strawberry_cookie_tile_slab": "Lastra di piastrelle di biscotto alla fragola",
+  "block.cookielicious.strawberry_cookie_tile_stairs": "Scalini di piastrelle di biscotto alla fragola",
+  "block.cookielicious.strawberry_cookie_tile_wall": "Muretto di piastrelle di biscotto alla fragola",
+  "block.cookielicious.strawberry_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto alla fragola",
+  
+  "block.cookielicious.chocolate_cookie_tiles": "Piastrelle di biscotto al cioccolato",
+  "block.cookielicious.chocolate_cookie_tile_slab": "Lastra di piastrelle di biscotto al cioccolato",
+  "block.cookielicious.chocolate_cookie_tile_stairs": "Scalini di piastrelle di biscotto al cioccolato",
+  "block.cookielicious.chocolate_cookie_tile_wall": "Muretto di piastrelle di biscotto al cioccolato",
+  "block.cookielicious.chocolate_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto al cioccolato",
+  
+  "block.cookielicious.vanilla_cookie_tiles": "Piastrelle di biscotto alla vaniglia",
+  "block.cookielicious.vanilla_cookie_tile_slab": "Lastra di piastrelle di biscotto alla vaniglia",
+  "block.cookielicious.vanilla_cookie_tile_stairs": "Scalini di piastrelle di biscotto alla vaniglia",
+  "block.cookielicious.vanilla_cookie_tile_wall": "Muretto di piastrelle di biscotto alla vaniglia",
+  "block.cookielicious.vanilla_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto alla vaniglia",
+  
+  "block.cookielicious.honey_cookie_tiles": "Piastrelle di biscotto al miele",
+  "block.cookielicious.honey_cookie_tile_slab": "Lastra di piastrelle di biscotto al miele",
+  "block.cookielicious.honey_cookie_tile_stairs": "Scalini di piastrelle di biscotto al miele",
+  "block.cookielicious.honey_cookie_tile_wall": "Muretto di piastrelle di biscotto al miele",
+  "block.cookielicious.honey_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto al miele",
+  
+  "block.cookielicious.sweet_berry_cookie_tiles": "Piastrelle di biscotto alle bacche dolci",
+  "block.cookielicious.sweet_berry_cookie_tile_slab": "Lastra di piastrelle di biscotto alle bacche dolci",
+  "block.cookielicious.sweet_berry_cookie_tile_stairs": "Scalini di piastrelle di biscotto alle bacche dolci",
+  "block.cookielicious.sweet_berry_cookie_tile_wall": "Muretto di piastrelle di biscotto alle bacche dolci",
+  "block.cookielicious.sweet_berry_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto alle bacche dolci",
+  
+  "block.cookielicious.banana_cookie_tiles": "Piastrelle di biscotto alla banana",
+  "block.cookielicious.banana_cookie_tile_slab": "Lastra di piastrelle di biscotto alla banana",
+  "block.cookielicious.banana_cookie_tile_stairs": "Scalini di piastrelle di biscotto alla banana",
+  "block.cookielicious.banana_cookie_tile_wall": "Muretto di piastrelle di biscotto alla banana",
+  "block.cookielicious.banana_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto alla banana",
+  
+  "block.cookielicious.mint_cookie_tiles": "Piastrelle di biscotto alla menta",
+  "block.cookielicious.mint_cookie_tile_slab": "Lastra di piastrelle di biscotto alla menta",
+  "block.cookielicious.mint_cookie_tile_stairs": "Scalini di piastrelle di biscotto alla menta",
+  "block.cookielicious.mint_cookie_tile_wall": "Muretto di piastrelle di biscotto alla menta",
+  "block.cookielicious.mint_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto alla menta",
+  
+  "block.cookielicious.adzuki_cookie_tiles": "Piastrelle di biscotto all'azuki",
+  "block.cookielicious.adzuki_cookie_tile_slab": "Lastra di piastrelle di biscotto all'azuki",
+  "block.cookielicious.adzuki_cookie_tile_stairs": "Scalini di piastrelle di biscotto all'azuki",
+  "block.cookielicious.adzuki_cookie_tile_wall": "Muretto di piastrelle di biscotto all'azuki",
+  "block.cookielicious.adzuki_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto all'azuki",
+
+  "block.cookielicious.cherry_cookie_tiles": "Piastrelle di biscotto alla ciliegia",
+  "block.cookielicious.cherry_cookie_tile_slab": "Lastra di piastrelle di biscotto alla ciliegia",
+  "block.cookielicious.cherry_cookie_tile_stairs": "Scalini di piastrelle di biscotto alla ciliegia",
+  "block.cookielicious.cherry_cookie_tile_wall": "Muretto di piastrelle di biscotto alla ciliegia",
+  "block.cookielicious.cherry_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto alla ciliegia",
+
+  "block.cookielicious.mulberry_cookie_tiles": "Piastrelle di biscotto alla mora",
+  "block.cookielicious.mulberry_cookie_tile_slab": "Lastra di piastrelle di biscotto alla mora",
+  "block.cookielicious.mulberry_cookie_tile_stairs": "Scalini di piastrelle di biscotto alla mora",
+  "block.cookielicious.mulberry_cookie_tile_wall": "Muretto di piastrelle di biscotto alla mora",
+  "block.cookielicious.mulberry_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto alla mora",
+
+  "block.cookielicious.maple_cookie_tiles": "Piastrelle di biscotto all'acero",
+  "block.cookielicious.maple_cookie_tile_slab": "Lastra di piastrelle di biscotto all'acero",
+  "block.cookielicious.maple_cookie_tile_stairs": "Scalini di piastrelle di biscotto all'acero",
+  "block.cookielicious.maple_cookie_tile_wall": "Muretto di piastrelle di biscotto all'acero",
+  "block.cookielicious.maple_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto all'acero",
+
+  "block.cookielicious.gooseberry_jam_cookie_tiles": "Piastrelle di biscotto alla marmellata di uva spina",
+  "block.cookielicious.gooseberry_jam_cookie_tile_slab": "Lastra di piastrelle di biscotto alla marmellata di uva spina",
+  "block.cookielicious.gooseberry_jam_cookie_tile_stairs": "Scalini di piastrelle di biscotto alla marmellata di uva spina",
+  "block.cookielicious.gooseberry_jam_cookie_tile_wall": "Muretto di piastrelle di biscotto alla marmellata di uva spina",
+  "block.cookielicious.gooseberry_jam_cookie_tile_vertical_slab": "Lastra verticale di piastrelle di biscotto alla marmellata di uva spina"
+}

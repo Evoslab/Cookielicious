@@ -29,7 +29,11 @@ public class CookieliciousBlocks {
 	public static final VariantBlocksRepo BANANA_COOKIE_TILES = HELPER.createSimpleBlockWithVariants("banana_cookie_tiles", Properties.COOKIE, ItemGroup.BUILDING_BLOCKS);
 	public static final VariantBlocksRepo MINT_COOKIE_TILES = HELPER.createSimpleBlockWithVariants("mint_cookie_tiles", Properties.COOKIE, ItemGroup.BUILDING_BLOCKS);
 	public static final VariantBlocksRepo ADZUKI_COOKIE_TILES = HELPER.createSimpleBlockWithVariants("adzuki_cookie_tiles", Properties.COOKIE, ItemGroup.BUILDING_BLOCKS);
-	
+	public static final VariantBlocksRepo CHERRY_COOKIE_TILES = HELPER.createSimpleBlockWithVariants("cherry_cookie_tiles", Properties.COOKIE, ItemGroup.BUILDING_BLOCKS, Mods.ABNORMALS_DELIGHT);
+	public static final VariantBlocksRepo MULBERRY_COOKIE_TILES = HELPER.createSimpleBlockWithVariants("mulberry_cookie_tiles", Properties.COOKIE, ItemGroup.BUILDING_BLOCKS, Mods.ABNORMALS_DELIGHT);
+	public static final VariantBlocksRepo MAPLE_COOKIE_TILES = HELPER.createSimpleBlockWithVariants("maple_cookie_tiles", Properties.COOKIE, ItemGroup.BUILDING_BLOCKS, Mods.ABNORMALS_DELIGHT);
+	public static final VariantBlocksRepo GOOSEBERRY_JAM_COOKIE_TILES = HELPER.createSimpleBlockWithVariants("gooseberry_jam_cookie_tiles", Properties.COOKIE, ItemGroup.BUILDING_BLOCKS, Mods.BAYOU_BLUES);
+
     public static class Properties {
     	
     	public static final Block.Properties COOKIE = Block.Properties.create(Material.WOOD).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD).harvestTool(ToolType.HOE);

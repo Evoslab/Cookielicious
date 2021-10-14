@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "bayou_blues:gooseberry_jam_cookie"
+        }
+    },
+    "result": {
+        "item": "cookielicious:gooseberry_jam_cookie_tiles",
+        "count": 4
+    },
+	"conditions": [
+    {
+      "type": "differentiate:condition",
+      "condition": "chocolate_cookie_tiles"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cookielicious:mulberry_cookie_tiles"
+  },
+  "result": "cookielicious:mulberry_cookie_tile_wall",
+  "count": 1,
+	"conditions": [
+    {
+      "type": "differentiate:condition",
+      "condition": "chocolate_cookie_tiles"
+    }
+  ]
+}

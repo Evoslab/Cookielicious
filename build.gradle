@@ -76,12 +76,19 @@ dependencies {
 
     implementation fg.deobf("curse.maven:abnormals-core-382216:${ac_id}")
     implementation fg.deobf("curse.maven:neapolitan-382016:${neapolitan_id}")
-	
+    implementation fg.deobf("curse.maven:abnormals-delight-442719:${abnormals_delight_id}")
+    implementation fg.deobf("curse.maven:autumnity-365045:${autumnity_id}")
+    implementation fg.deobf("curse.maven:upgrade-aquatic-326895:${upgrade_aquatic_id}")
+    implementation fg.deobf("curse.maven:environmental-388992:${environmental_id}")
+    implementation fg.deobf("curse.maven:bayou-blues-452344:${bayou_blues_id}")
+
 	implementation fg.deobf("curse.maven:farmersdelight-398521:${fd_id}")
 	implementation fg.deobf("curse.maven:autoreglib-250363:${arl_id}")
 	implementation fg.deobf("curse.maven:quark-243121:${quark_id}")
 	
 	implementation fg.deobf("curse.maven:differentiate-450748:${differentiate_id}")
+
+    runtimeOnly fg.deobf("curse.maven:jei-238222:${jei_id}")
 	
 	//annotationProcessor 'org.spongepowered:mixin:0.8.2:processor'
 }
