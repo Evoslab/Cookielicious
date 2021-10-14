@@ -57,7 +57,7 @@ public class CookieliciousItems {
 		public static final Item.Properties MINT = new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
 				.hunger(2)
 				.saturation(1F)
-				.effect(() -> new EffectInstance(Effects.AGILITY, 120, 0), 1F)
+				.effect(() -> new EffectInstance(Effects.BERSERKING, 120, 0), 1F)
 				.fastToEat()
 				.build());
 		public static final Item.Properties ADZUKI = new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder()
