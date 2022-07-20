@@ -1,4 +1,4 @@
-package com.evoslab.cookielicious.core;
+package com.evoslab.cookielicious.common.core;
 
 import org.apache.commons.lang3.tuple.Pair;
 
@@ -53,23 +53,23 @@ public class CookieliciousConfig {
 			builder.pop();
 			
 			// Cookies
-			BooleanRecipeCondition.TABLE.put("vanilla_cookie", enableVanillaCookies);
-			BooleanRecipeCondition.TABLE.put("strawberry_cookie", enableStrawberryCookies);
-			BooleanRecipeCondition.TABLE.put("chocolate_cookie", enableChocolateCookies);
-			BooleanRecipeCondition.TABLE.put("mint_cookie", enableMintCookies);
-			BooleanRecipeCondition.TABLE.put("banana_cookie", enableBananaCookies);
-			BooleanRecipeCondition.TABLE.put("adzuki_cookie", enableAdzukiCookies);
+			BooleanRecipeCondition.MAP.put("vanilla_cookie", enableVanillaCookies);
+			BooleanRecipeCondition.MAP.put("strawberry_cookie", enableStrawberryCookies);
+			BooleanRecipeCondition.MAP.put("chocolate_cookie", enableChocolateCookies);
+			BooleanRecipeCondition.MAP.put("mint_cookie", enableMintCookies);
+			BooleanRecipeCondition.MAP.put("banana_cookie", enableBananaCookies);
+			BooleanRecipeCondition.MAP.put("adzuki_cookie", enableAdzukiCookies);
 			
 			// Cookie tiles
-			BooleanRecipeCondition.TABLE.put("vanilla_cookie_tiles", enableVanillaCookieTiles);
-			BooleanRecipeCondition.TABLE.put("strawberry_cookie_tiles", enableStrawberryCookieTiles);
-			BooleanRecipeCondition.TABLE.put("chocolate_cookie_tiles", enableChocolateCookieTiles);
-			BooleanRecipeCondition.TABLE.put("honey_cookie_tiles", enableHoneyCookieTiles);
-			BooleanRecipeCondition.TABLE.put("sweet_berry_cookie_tiles", enableSweetBerryCookieTiles);
-			BooleanRecipeCondition.TABLE.put("mint_cookie_tiles", enableMintCookieTiles);
-			BooleanRecipeCondition.TABLE.put("banana_cookie_tiles", enableBananaCookieTiles);
-			BooleanRecipeCondition.TABLE.put("adzuki_cookie_tiles", enableAdzukiCookieTiles);
-			BooleanRecipeCondition.TABLE.put("cookie_tiles", enableCookieTiles);
+			BooleanRecipeCondition.MAP.put("vanilla_cookie_tiles", enableVanillaCookieTiles);
+			BooleanRecipeCondition.MAP.put("strawberry_cookie_tiles", enableStrawberryCookieTiles);
+			BooleanRecipeCondition.MAP.put("chocolate_cookie_tiles", enableChocolateCookieTiles);
+			BooleanRecipeCondition.MAP.put("honey_cookie_tiles", enableHoneyCookieTiles);
+			BooleanRecipeCondition.MAP.put("sweet_berry_cookie_tiles", enableSweetBerryCookieTiles);
+			BooleanRecipeCondition.MAP.put("mint_cookie_tiles", enableMintCookieTiles);
+			BooleanRecipeCondition.MAP.put("banana_cookie_tiles", enableBananaCookieTiles);
+			BooleanRecipeCondition.MAP.put("adzuki_cookie_tiles", enableAdzukiCookieTiles);
+			BooleanRecipeCondition.MAP.put("cookie_tiles", enableCookieTiles);
 		}
 		
 	}

@@ -1,10 +1,11 @@
 modLoader="javafml"
-loaderVersion="[34,)"
+loaderVersion="[40,)"
 license="All rights reserved"
 issueTrackerURL="http://github.com/Evoslab/Cookielicious/issues"
+
 [[mods]]
 modId="cookielicious"
-version="1.4.3"
+version="${file.jarVersion}"
 displayName="Cookielicious"
 logoFile="cookielicious.png"
 credits="Evo, Stardust, AvocadoSpud, Nary, EltrutLikes, JustinPlayzz"
@@ -20,34 +21,34 @@ configuredBackground= "cookielicious:textures/blocks/cookie_tiles.png" #configur
 [[dependencies.cookielicious]]
     modId="forge"
     mandatory=true
-    versionRange="[34,)"
+    versionRange="[40.1.0,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.cookielicious]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.3, 1.17)"
+    versionRange="[1.18.2,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.cookielicious]]
     modId="neapolitan" 
     mandatory=true 
-    versionRange="[2.0.0,)"
+    versionRange="[3.0.0,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.cookielicious]]
-    modId="abnormals_core"
+    modId="blueprint"
     mandatory=true
-    versionRange="[3.0.0,)"
+    versionRange="[5.4.0,)"
     ordering="AFTER"
     side="BOTH"
 	
 [[dependencies.cookielicious]]
     modId="differentiate"
     mandatory=true
-    versionRange="[0.5.3,)"
+    versionRange="[1.0.3,)"
     ordering="AFTER"
     side="BOTH"

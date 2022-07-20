@@ -1,6 +1,6 @@
 package com.evoslab.cookielicious.common.item;
 
-import com.minecraftabnormals.neapolitan.common.item.HealingItem;
+import com.teamabnormals.neapolitan.common.item.HealingItem;
 
 import co.eltrut.differentiate.common.interf.ICompostableItem;
 

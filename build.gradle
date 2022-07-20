@@ -1,16 +1,16 @@
 buildscript {
     repositories {
-        maven { url = 'https://files.minecraftforge.net/maven' }
+        maven { url = 'https://maven.minecraftforge.net' }
         //maven { url = "https://repo.spongepowered.org/repository/maven-public/" }
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
 		//classpath group: "org.spongepowered", name: "mixingradle", version: "0.7-SNAPSHOT"
     }
 }
 
-apply plugin: 'net.minecraftforge.gradle'
+ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 //apply plugin: "org.spongepowered.mixin"
@@ -19,11 +19,11 @@ version = "${mc_version}-${mod_version}"
 group = 'com.evoslab.cookielicious'
 archivesBaseName = 'cookielicious'
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
-    mappings channel: "${project.mappingsChannel}", version: "${project.mappings}"
+    mappings channel: 'official', version: "${mc_version}"
 
     runs {
         client {
@@ -59,8 +59,9 @@ minecraft {
 
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
+            jvmArg "-Dmixin.env.disableRefMap=true"
 
-            args '--mod', 'cookielicious', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'cookielicious', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
                 cookielicious {
@@ -71,21 +72,13 @@ minecraft {
     }
 }
 
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
 dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
 
-    implementation fg.deobf("curse.maven:abnormals-core-382216:${ac_id}")
+    implementation fg.deobf("curse.maven:blueprint-382216:${blueprint_id}")
     implementation fg.deobf("curse.maven:neapolitan-382016:${neapolitan_id}")
-    implementation fg.deobf("curse.maven:abnormals-delight-442719:${abnormals_delight_id}")
-    implementation fg.deobf("curse.maven:autumnity-365045:${autumnity_id}")
-    implementation fg.deobf("curse.maven:upgrade-aquatic-326895:${upgrade_aquatic_id}")
-    implementation fg.deobf("curse.maven:environmental-388992:${environmental_id}")
-    implementation fg.deobf("curse.maven:bayou-blues-452344:${bayou_blues_id}")
-
-	implementation fg.deobf("curse.maven:farmersdelight-398521:${fd_id}")
-	implementation fg.deobf("curse.maven:autoreglib-250363:${arl_id}")
-	implementation fg.deobf("curse.maven:quark-243121:${quark_id}")
-	
 	implementation fg.deobf("curse.maven:differentiate-450748:${differentiate_id}")
 
     runtimeOnly fg.deobf("curse.maven:jei-238222:${jei_id}")
@@ -113,11 +106,7 @@ jar {
     }
 }
 
-// Example configuration to allow publishing using the maven-publish task
-// This is the preferred method to reobfuscate your jar file
-jar.finalizedBy('reobfJar') 
-// However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
-//publish.dependsOn('reobfJar')
+jar.finalizedBy('reobfJar')
 
 publishing {
     publications {

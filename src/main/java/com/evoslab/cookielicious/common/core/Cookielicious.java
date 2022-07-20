@@ -1,4 +1,4 @@
-package com.evoslab.cookielicious.core;
+package com.evoslab.cookielicious.common.core;
 
 import co.eltrut.differentiate.core.registrator.Registrator;
 import net.minecraftforge.common.MinecraftForge;
@@ -16,15 +16,18 @@ public class Cookielicious {
     public static final String MOD_ID = "cookielicious";
     public static final Registrator REGISTRATOR = new Registrator(MOD_ID);
     public static Cookielicious instance;
-    
-    IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
     public Cookielicious() {
-    	ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CookieliciousConfig.COMMON_SPEC);
-    	
+        instance = this;
+
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, CookieliciousConfig.COMMON_SPEC);
+
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        REGISTRATOR.register(modEventBus);
+
         modEventBus.addListener(this::doCommonStuff);
         modEventBus.addListener(this::doClientStuff);
-        instance = this;
 
         MinecraftForge.EVENT_BUS.register(this);
     }
