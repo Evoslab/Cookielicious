@@ -59,9 +59,10 @@ minecraft {
 
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
-            jvmArg "-Dmixin.env.disableRefMap=true"
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
-            args '--mod', 'cookielicious', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'cookielicious', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/'), '--existing-mod', "${neapolitan_id}", '--existing-mod', "${blueprint_id}"
 
             mods {
                 cookielicious {
@@ -79,10 +80,15 @@ dependencies {
 
     implementation fg.deobf("curse.maven:blueprint-382216:${blueprint_id}")
     implementation fg.deobf("curse.maven:neapolitan-382016:${neapolitan_id}")
-	implementation fg.deobf("curse.maven:differentiate-450748:${differentiate_id}")
-
+    runtimeOnly fg.deobf("curse.maven:abnormals-delight-442719:4415502")
+    runtimeOnly fg.deobf("curse.maven:farmers-delight-398521:4679318")
     runtimeOnly fg.deobf("curse.maven:jei-238222:${jei_id}")
-	
+    runtimeOnly fg.deobf("curse.maven:quark-243121:4587248")
+    runtimeOnly fg.deobf("curse.maven:autoreglib-250363:4100299")
+    runtimeOnly fg.deobf("curse.maven:environmental-388992:4415514")
+    runtimeOnly fg.deobf("curse.maven:upgrade-aquatic-326895:4415517")
+    runtimeOnly fg.deobf("curse.maven:autumnity-365045:4415512")
+
 	//annotationProcessor 'org.spongepowered:mixin:0.8.2:processor'
 }
 

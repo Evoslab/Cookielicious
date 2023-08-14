@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "cookielicious:config",
+          "value": "vanilla_cookie_tiles"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "#": {
+            "item": "cookielicious:mulberry_cookie_tiles"
+          }
+        },
+        "pattern": [
+          "###"
+        ],
+        "result": {
+          "count": 6,
+          "item": "cookielicious:mulberry_cookie_tile_slab"
+        }
+      }
+    }
+  ]
+}

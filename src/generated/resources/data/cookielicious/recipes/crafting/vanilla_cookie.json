@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "cookielicious:config",
+          "value": "vanilla_cookie"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "R": {
+            "item": "neapolitan:dried_vanilla_pods"
+          },
+          "W": {
+            "item": "minecraft:wheat"
+          }
+        },
+        "pattern": [
+          "WRW"
+        ],
+        "result": {
+          "count": 8,
+          "item": "cookielicious:vanilla_cookie"
+        }
+      }
+    }
+  ]
+}

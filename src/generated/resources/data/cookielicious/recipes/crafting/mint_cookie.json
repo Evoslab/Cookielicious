@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "cookielicious:config",
+          "value": "mint_cookie"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "R": {
+            "item": "neapolitan:mint_leaves"
+          },
+          "W": {
+            "item": "minecraft:wheat"
+          }
+        },
+        "pattern": [
+          "WRW"
+        ],
+        "result": {
+          "count": 8,
+          "item": "cookielicious:mint_cookie"
+        }
+      }
+    }
+  ]
+}

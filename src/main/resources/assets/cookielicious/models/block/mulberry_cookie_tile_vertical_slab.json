@@ -1,5 +1,5 @@
 {
-    "parent": "differentiate:block/vertical_slab",
+    "parent": "blueprint:block/vertical_slab",
     "textures": {
         "side": "cookielicious:blocks/mulberry_cookie_tiles",
         "top": "cookielicious:blocks/mulberry_cookie_tiles",

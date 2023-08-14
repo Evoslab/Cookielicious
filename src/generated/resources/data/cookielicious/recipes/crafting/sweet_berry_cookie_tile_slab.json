@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "cookielicious:config",
+          "value": "sweet_berry_cookie_tiles"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "#": {
+            "item": "cookielicious:sweet_berry_cookie_tiles"
+          }
+        },
+        "pattern": [
+          "###"
+        ],
+        "result": {
+          "count": 6,
+          "item": "cookielicious:sweet_berry_cookie_tile_slab"
+        }
+      }
+    }
+  ]
+}

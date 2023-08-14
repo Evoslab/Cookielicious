@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "cookielicious:config",
+          "value": "chocolate_cookie"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "key": {
+          "R": {
+            "item": "neapolitan:chocolate_bar"
+          },
+          "W": {
+            "item": "minecraft:wheat"
+          }
+        },
+        "pattern": [
+          "WRW"
+        ],
+        "result": {
+          "count": 8,
+          "item": "cookielicious:chocolate_cookie"
+        }
+      }
+    }
+  ]
+}
