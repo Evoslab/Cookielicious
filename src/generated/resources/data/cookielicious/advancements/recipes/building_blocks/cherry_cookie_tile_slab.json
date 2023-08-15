@@ -38,7 +38,11 @@
       "conditions": [
         {
           "type": "cookielicious:config",
-          "value": "vanilla_cookie_tiles"
+          "value": "cherry_cookie_tiles"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "abnormals_delight"
         }
       ]
     }

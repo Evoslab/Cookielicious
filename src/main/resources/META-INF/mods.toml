@@ -21,7 +21,7 @@ configuredBackground= "cookielicious:textures/blocks/cookie_tiles.png" #configur
 [[dependencies.cookielicious]]
     modId="forge"
     mandatory=true
-    versionRange="[43.2.0,)"
+    versionRange="[43,)"
     ordering="NONE"
     side="BOTH"
 
