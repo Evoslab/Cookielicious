@@ -2,6 +2,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cookielicious:items/adzuki_cookie"
+    "layer0": "cookielicious:item/adzuki_cookie"
   }
 }

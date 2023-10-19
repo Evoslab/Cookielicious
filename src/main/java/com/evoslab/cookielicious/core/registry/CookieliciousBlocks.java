@@ -13,7 +13,9 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.RegistryObject;
 
 import javax.annotation.Nullable;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
 
@@ -23,7 +25,11 @@ public class CookieliciousBlocks {
 	public static final BlockSubRegistryHelper HELPER = Cookielicious.REGISTRY_HELPER.getBlockSubHelper();
 
 	public static final Map<RegistryObject<Block>, ToolType> EFFECTIVE_TOOL_MAP = new HashMap<>();
-
+	public static final List<RegistryObject<Block>> ALL_TILES = new ArrayList<>();
+	public static final List<RegistryObject<Block>> ALL_TILE_STAIRS = new ArrayList<>();
+	public static final List<RegistryObject<Block>> ALL_TILE_SLABS = new ArrayList<>();
+	public static final List<RegistryObject<Block>> ALL_TILE_WALLS = new ArrayList<>();
+	public static final List<RegistryObject<Block>> ALL_TILE_VERTICAL_SLABS = new ArrayList<>();
 	
 	// Cookie Tiles
 	public static final RegistryObject<Block> COOKIE_TILES = registerCookieTiles("cookie_tiles", ToolType.HOE, CookieliciousCompat.MINECRAFT);
@@ -49,7 +55,6 @@ public class CookieliciousBlocks {
 	public static final RegistryObject<Block> VANILLA_COOKIE_TILE_SLAB = registerCookieSlabs("vanilla_cookie_tile_slab", ToolType.HOE, CookieliciousCompat.NEAPOLITAN);
 	public static final RegistryObject<Block> VANILLA_COOKIE_TILE_WALL = registerCookieWalls("vanilla_cookie_tile_wall", ToolType.HOE, CookieliciousCompat.NEAPOLITAN);
 	public static final RegistryObject<Block> VANILLA_COOKIE_TILE_VERTICAL_SLAB = registerCookieVerticalSlab("vanilla_cookie_tile_vertical_slab", ToolType.HOE, CookieliciousCompat.NEAPOLITAN, CookieliciousCompat.QUARK);
-
 
 	public static final RegistryObject<Block> HONEY_COOKIE_TILES = registerCookieTiles("honey_cookie_tiles", ToolType.HOE, CookieliciousCompat.FARMERS_DELIGHT);
 	public static final RegistryObject<Block> HONEY_COOKIE_TILE_STAIRS = registerCookieStairs("honey_cookie_tile_stairs", HONEY_COOKIE_TILES, ToolType.HOE, CookieliciousCompat.FARMERS_DELIGHT);
@@ -124,6 +129,7 @@ public class CookieliciousBlocks {
 		if (toolType != null) {
 			EFFECTIVE_TOOL_MAP.put(blockObject, toolType);
 		}
+		ALL_TILES.add(blockObject);
 		return blockObject;
 	}
 
@@ -132,6 +138,7 @@ public class CookieliciousBlocks {
 		if (toolType != null) {
 			EFFECTIVE_TOOL_MAP.put(blockObject, toolType);
 		}
+		ALL_TILE_STAIRS.add(blockObject);
 		return blockObject;
 	}
 
@@ -140,6 +147,7 @@ public class CookieliciousBlocks {
 		if (toolType != null) {
 			EFFECTIVE_TOOL_MAP.put(blockObject, toolType);
 		}
+		ALL_TILE_SLABS.add(blockObject);
 		return blockObject;
 	}
 
@@ -148,6 +156,7 @@ public class CookieliciousBlocks {
 		if (toolType != null) {
 			EFFECTIVE_TOOL_MAP.put(blockObject, toolType);
 		}
+		ALL_TILE_WALLS.add(blockObject);
 		return blockObject;
 	}
 
@@ -156,6 +165,7 @@ public class CookieliciousBlocks {
 		if (toolType != null) {
 			EFFECTIVE_TOOL_MAP.put(blockObject, toolType);
 		}
+		ALL_TILE_VERTICAL_SLABS.add(blockObject);
 		return blockObject;
 	}
 }

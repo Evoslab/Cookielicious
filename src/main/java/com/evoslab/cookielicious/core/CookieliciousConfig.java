@@ -22,6 +22,10 @@ public class CookieliciousConfig {
 		public final BooleanValue enableBananaCookies;
 		@ConfigKey("adzuki_cookie")
 		public final BooleanValue enableAdzukiCookies;
+		@ConfigKey("pumpkin_cookie")
+		public final BooleanValue enablePumpkinCookies;
+		@ConfigKey("beetroot_cookie")
+		public final BooleanValue enableBeetrootCookies;
 		
 		// Cookie tiles
 		@ConfigKey("vanilla_cookie_tiles")
@@ -59,7 +63,9 @@ public class CookieliciousConfig {
 			enableMintCookies = builder.define("Whether mint cookies are enabled", true);
 			enableBananaCookies = builder.define("Whether banana cookies are enabled", true);
 			enableAdzukiCookies = builder.define("Whether adzuki cookies are enabled", true);
-			
+			enablePumpkinCookies = builder.define("Whether pumpkin cookies are enabled", true);
+			enableBeetrootCookies = builder.define("Whether beetroot cookies are enabled", true);
+
 			// Cookie tiles
 			enableVanillaCookieTiles = builder.define("Whether vanilla cookie tiles are enabled", true);
 			enableStrawberryCookieTiles = builder.define("Whether strawberry cookie tiles are enabled", true);

@@ -21,7 +21,9 @@ public class CookieliciousEvents {
 				new BlueprintTrade(3, CookieliciousItems.CHOCOLATE_COOKIE.get(), 18, 12, 10),
 				new BlueprintTrade(3, CookieliciousItems.BANANA_COOKIE.get(), 18, 12, 10),
 				new BlueprintTrade(3, CookieliciousItems.MINT_COOKIE.get(), 18, 12, 10),
-				new BlueprintTrade(3, CookieliciousItems.ADZUKI_COOKIE.get(), 18, 12, 10));
+				new BlueprintTrade(3, CookieliciousItems.ADZUKI_COOKIE.get(), 18, 12, 10),
+				new BlueprintTrade(3, CookieliciousItems.PUMPKIN_COOKIE.get(), 18, 12, 10),
+				new BlueprintTrade(3, CookieliciousItems.BEETROOT_COOKIE.get(), 18, 12, 10));
 	}
 	
 }

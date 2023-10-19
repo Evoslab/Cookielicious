@@ -33,6 +33,8 @@ public class CRecipeProvider extends RecipeProvider {
     private static final ConfigValueCondition enableMintCookies = configCondition(CookieliciousConfig.COMMON.enableMintCookies, "mint_cookie", false);
     private static final ConfigValueCondition enableBananaCookies = configCondition(CookieliciousConfig.COMMON.enableBananaCookies, "banana_cookie", false);
     private static final ConfigValueCondition enableAdzukiCookies = configCondition(CookieliciousConfig.COMMON.enableAdzukiCookies, "adzuki_cookie", false);
+    private static final ConfigValueCondition enablePumpkinCookies = configCondition(CookieliciousConfig.COMMON.enablePumpkinCookies, "pumpkin_cookie", false);
+    private static final ConfigValueCondition enableBeetrootCookies = configCondition(CookieliciousConfig.COMMON.enableBeetrootCookies, "beetroot_cookie", false);
     private static final ConfigValueCondition enableVanillaCookieTiles = configCondition(CookieliciousConfig.COMMON.enableVanillaCookieTiles, "vanilla_cookie_tiles", false);
     private static final ConfigValueCondition enableStrawberryCookieTiles = configCondition(CookieliciousConfig.COMMON.enableStrawberryCookieTiles, "strawberry_cookie_tiles", false);
     private static final ConfigValueCondition enableChocolateCookieTiles = configCondition(CookieliciousConfig.COMMON.enableChocolateCookieTiles, "chocolate_cookie_tiles", false);
@@ -58,6 +60,8 @@ public class CRecipeProvider extends RecipeProvider {
         addCookieRecipe(enableMintCookies, CookieliciousItems.MINT_COOKIE, () -> getItem(CookieliciousCompat.NEAPOLITAN, "mint_leaves"), consumer);
         addCookieRecipe(enableBananaCookies, CookieliciousItems.BANANA_COOKIE, () -> getItem(CookieliciousCompat.NEAPOLITAN, "banana"), consumer);
         addCookieRecipe(enableAdzukiCookies, CookieliciousItems.ADZUKI_COOKIE, () -> getItem(CookieliciousCompat.NEAPOLITAN, "roasted_adzuki_beans"), consumer);
+        addModLoadedCookieRecipe(enablePumpkinCookies, CookieliciousCompat.SEASONALS, CookieliciousItems.PUMPKIN_COOKIE, () -> getItem(CookieliciousCompat.SEASONALS, "pumpkin_puree"), consumer);
+        addModLoadedCookieRecipe(enableBeetrootCookies, CookieliciousCompat.SEASONALS, CookieliciousItems.BEETROOT_COOKIE, () -> getItem(CookieliciousCompat.SEASONALS, "roasted_beetroot"), consumer);
 
         addCookieTileRecipes(enableVanillaCookieTiles, CookieliciousItems.VANILLA_COOKIE, CookieliciousBlocks.VANILLA_COOKIE_TILES, CookieliciousBlocks.VANILLA_COOKIE_TILE_STAIRS, CookieliciousBlocks.VANILLA_COOKIE_TILE_SLAB, CookieliciousBlocks.VANILLA_COOKIE_TILE_WALL, CookieliciousBlocks.VANILLA_COOKIE_TILE_VERTICAL_SLAB, consumer);
         addCookieTileRecipes(enableCookieTiles, () -> Items.COOKIE, CookieliciousBlocks.COOKIE_TILES, CookieliciousBlocks.COOKIE_TILE_STAIRS, CookieliciousBlocks.COOKIE_TILE_SLAB, CookieliciousBlocks.COOKIE_TILE_WALL, CookieliciousBlocks.COOKIE_TILE_VERTICAL_SLAB, consumer);
@@ -76,6 +80,13 @@ public class CRecipeProvider extends RecipeProvider {
 
     private static void addCookieRecipe(ICondition condition, Supplier<? extends ItemLike> result, Supplier<? extends ItemLike> input, Consumer<FinishedRecipe> consumer) {
         conditionalRecipe(condition, ShapedRecipeBuilder.shaped(result.get(), 8)
+                .define('W', Items.WHEAT)
+                .define('R', input.get())
+                .pattern("WRW").unlockedBy(getHasName(input.get()), has(input.get())), consumer, "crafting");
+    }
+
+    private static void addModLoadedCookieRecipe(ICondition condition, String modId, Supplier<? extends ItemLike> result, Supplier<? extends ItemLike> input, Consumer<FinishedRecipe> consumer) {
+        conditionalModLoadedRecipe(condition, modId, ShapedRecipeBuilder.shaped(result.get(), 8)
                 .define('W', Items.WHEAT)
                 .define('R', input.get())
                 .pattern("WRW").unlockedBy(getHasName(input.get()), has(input.get())), consumer, "crafting");

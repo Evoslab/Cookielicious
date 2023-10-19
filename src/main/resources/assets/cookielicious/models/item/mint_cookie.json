@@ -2,6 +2,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cookielicious:items/mint_cookie"
+    "layer0": "cookielicious:item/mint_cookie"
   }
 }
