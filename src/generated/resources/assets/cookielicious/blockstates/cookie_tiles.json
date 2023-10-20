@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cookielicious:block/cookie_tiles"
+    }
+  }
+}

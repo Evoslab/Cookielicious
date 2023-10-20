@@ -1,8 +1,0 @@
-{
-    "parent": "blueprint:block/vertical_slab",
-    "textures": {
-        "side": "cookielicious:blocks/honey_cookie_tiles",
-        "top": "cookielicious:blocks/honey_cookie_tiles",
-        "bottom": "cookielicious:blocks/honey_cookie_tiles"
-    }
-}
